@@ -1,0 +1,16 @@
+{
+  "name": "kumu-api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config ./config.js --reporter spec tests/specs/*.spec.js"
+  },
+  "author": "Gerard Paul Benavides",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0",
+    "supertest": "^6.2.2"
+  }
+}
